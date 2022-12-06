@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "version": "2.0.2",
-    "title": "Health_SlimMoms",
+    "title": "Diet-app",
     "description": "Showing off swagger-ui-express",
     "license": {
       "name": "MIT",
@@ -14,7 +14,7 @@
   "servers": [
     {
       "url": "https://health-projectbackend.herokuapp.com/api",
-      "urllocal": "http://localhost:4600/api"
+      "urllocal": "http://localhost:3001/api"
     }
   ],
   "tags": [

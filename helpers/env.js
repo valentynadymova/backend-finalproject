@@ -6,3 +6,4 @@ module.exports = {
   DB_HOST,
   SECRET_KEY,
 };
+
