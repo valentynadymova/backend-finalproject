@@ -8,7 +8,7 @@ const uriDb = process.env.DB_HOST;
 mongoose
   .connect(uriDb)
   .then(() => {
-    console.log("Database connection successful");
+    console.log("Database connection is successful");
     app.listen(PORT, () => {
       console.log(`Server running. Use our API on port: ${PORT}`);
     });
